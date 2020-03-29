@@ -14,6 +14,10 @@ namespace TestAndroid
             MainPage = new MainPage();
         }
 
+        public static int WidthPixels;
+        public static int HeightPixels;
+        public static int DPI;
+        public static float Density;
         protected override void OnStart()
         {
             // Handle when your app starts

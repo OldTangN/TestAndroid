@@ -4,11 +4,13 @@
              xmlns:local="clr-namespace:TestAndroid"
              x:Class="TestAndroid.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <!--<ImageButton HorizontalOptions="Start" VerticalOptions="Start"  
+                          WidthRequest="200" HeightRequest="200" 
+                         CommandParameter="1" Source="good.png" Clicked="ImageButton_Clicked"></ImageButton>-->
+        <Grid x:Name="LampGrid" BackgroundColor="LightGreen"
+              HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        </Grid>
     </StackLayout>
-
+   
 </ContentPage>
